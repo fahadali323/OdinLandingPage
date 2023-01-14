@@ -1,0 +1,30 @@
+body {
+    border: 4px solid yellowgreen;
+}
+.container {
+    height: auto;
+    width: auto;
+}
+.div1 { 
+    background-color: #1F2937;
+    padding: 4px;
+
+}
+.header{ 
+    display:flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.right { 
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+}
