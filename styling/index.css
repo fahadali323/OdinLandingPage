@@ -2,6 +2,9 @@
     text-align: center;
     margin: 10px;
 }
+body {
+    margin: 0px;
+}
 .div1 { 
     background-color: #1F2937;
     padding: 4px;
@@ -64,10 +67,9 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.div3 {
-    text-align: center;
-}
+
 .quote2 {
+    margin:8px;
     padding: 80px;
     text-align: center;
     background-color: #E5E7EB;
@@ -75,15 +77,45 @@ img{
     font-style: italic;
     color: #1F2937;
 }
-.div3 {
-    text-align: center;
+action {
+    font-size: 36px;
+    font-weight: 100;
+    color:#1F2937;
 }
 .div4 {
     color: #F9FAF8;
     background-color: #1F2937;
-    text-align: center;
+    justify-content: center;
     display: flex;
 }
-.copy{
-    justify-content: flex-end;
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    /* padding: 3em; */
+    width: 100%;
+    border-radius: 10px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+
+}
+.sign button {
+    border: 2px solid white;
+}
+.right {
+    flex-shrink: 0;
+}
+.left > strong {
+    color: white;
 }
