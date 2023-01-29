@@ -34,8 +34,8 @@ button {
 }
 
 img{
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 75%;
+    max-height: 75%;
 }
 .secondary {
     color:#E5E7EB;
@@ -50,6 +50,7 @@ img{
 }
 .quote {
     display: flex;
+    padding:20px;
 }
 
 .info {
